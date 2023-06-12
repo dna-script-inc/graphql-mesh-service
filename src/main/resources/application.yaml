@@ -1,0 +1,24 @@
+design-service:
+  client:
+    connect-timeout: 11_000
+    read-timeout: 100
+    write-timeout: 100
+    in-memory-size: 16777216
+    url: https://{place-holder}
+    test: Design
+license-service:
+  client:
+    connect-timeout: 11_000
+    read-timeout: 200
+    write-timeout: 100
+    in-memory-size: 16777216
+    url: https://{place-holder}
+    test: License
+redbox-service:
+  client:
+    connect-timeout: 11_000
+    read-timeout: 300
+    write-timeout: 100
+    in-memory-size: 16777216
+    url: https://{place-holder}
+    test: Redbox
